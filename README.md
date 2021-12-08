@@ -1,9 +1,35 @@
-# Analysis of jets in small colliding systems - HIN_22_XXX
-## University of Illinois at Chicago - UIC
+#pPb@8.16TeV
 
-Analysis steps:
-> pPb
->> HiForest prodution: Ongoing
->> Skim production: 
->> Histogram production:
+##steps/status:
+
+> HiForest prodution: Ongoing
+
+>> Data
+
+>>> MB
+
+>>> HM
+
+>>> Jet data
+
+>> MC simulations
+
+>>> EPOS MB
+
+>>> HIJING MB
+
+>>> AMPT MB
+
+>>> Pythia8 (pthat > X) 
+
+> Skim production: 
+
+>> MB data
+
+>> HM data
+
+>> Jet data
+
+>> MC
+
 
