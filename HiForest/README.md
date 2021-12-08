@@ -1,30 +1,19 @@
-# pPb at 8.16 TeV
+#HiForest Setup
 
-This branch contain relevant information about the data processing of pPb at 8.16 TeV dataset collected by CMS in the Run2 at November/December of 2016. In addition, the status and step-by-step usage of the codes are included as follows:
+For pPb at 8.16 TeV the CMSSW version 8_0_28 must be used:
 
-## codes:
+```
+# Setup scram version
+cmsrel CMSSW_8_0_28
+cd CMSSW_8_0_28/src
+cmsenv
+git cms-merge-topic -u CmsHI:forest_CMSSW_8_0_28
+# Switch to the branch HEAD
+git remote add cmshi git@github.com:CmsHI/cmssw.git
+git fetch cmshi --no-tags
+git checkout -b forest_CMSSW_8_0_28 remotes/cmshi/forest_CMSSW_8_0_28
+scram build -j4
+cd HeavyIonsAnalysis/JetAnalysis/test/
+./runtest.sh
+```
 
-> HiForest setup
-
-
-## steps/status:
-
-1. HiForest prodution: Ongoing
-   - Data
-     - MB
-     - HM
-     - Jet
-
-   - MC simulations
-     - EPOS MB
-     - HIJING MB
-     - AMPT MB
-     - Pythia8 (pthat > X) 
-
-2. Skim production: 
-   - MB data
-   - HM data
-   - Jet data
-   - MC
-
-3. Histograms/observables: 
