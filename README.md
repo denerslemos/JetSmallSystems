@@ -12,29 +12,19 @@ This branch contain relevant information about the data processing of pPb at 8.1
 1. HiForest prodution: Ongoing
    - Data
      - MB
+     - HM
+     - Jet
 
->>> HM
+   - MC simulations
+     - EPOS MB
+     - HIJING MB
+     - AMPT MB
+     - Pythia8 (pthat > X) 
 
->>> Jet data
+2. Skim production: 
+   - MB data
+   - HM data
+   - Jet data
+   - MC
 
->> MC simulations
-
->>> EPOS MB
-
->>> HIJING MB
-
->>> AMPT MB
-
->>> Pythia8 (pthat > X) 
-
-> Skim production: 
-
->> MB data
-
->> HM data
-
->> Jet data
-
->> MC
-
-
+3. Histograms/observables: 
