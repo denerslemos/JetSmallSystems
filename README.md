@@ -33,7 +33,7 @@ This branch contain relevant information about the data processing of pPb at 8.1
 
 Crab setup
 ```
-source /cvmfs/cms.cern.ch/crab3/crab.sh #crab setup
+source /cvmfs/cms.cern.ch/crab3/crab.sh
 ```
 
 Alias for CMSSW version (example for pPb at 8.16 TeV)
