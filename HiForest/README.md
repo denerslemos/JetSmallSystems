@@ -16,7 +16,7 @@ git checkout -b forest_CMSSW_8_0_28 remotes/cmshi/forest_CMSSW_8_0_28
 scram build -j4
 cd HeavyIonsAnalysis/JetAnalysis/test/
 ./runtest.sh
-# Include event plane informations
+# Include event plane information
 
 ```
 
