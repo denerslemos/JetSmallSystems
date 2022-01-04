@@ -4,7 +4,12 @@ This branch contain relevant information about the data processing of pPb at 8.1
 
 ## codes:
 
-> HiForest setup
+> HiForest
+> > Setup for official HiForest setup. Intructions to add event plane informations and pixel layers with measurements are also included
+> Skim
+> > Produce the skims using HiForest as input. We can use CRAB3 or HTCondor to production and is useful to reduce the size of files.
+> HiForest
+> HiForest
 
 
 ## steps/status:
