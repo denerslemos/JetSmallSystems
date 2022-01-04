@@ -13,13 +13,14 @@ This branch contain relevant information about the data processing of pPb at 8.1
    - Data
      - [ ] MB
      - [ ] HM
-     - [ ] Jet
+     - [x] Jet
 
    - MC simulations
      - [ ] EPOS MB
      - [ ] HIJING MB
      - [ ] AMPT MB
-     - [ ] Pythia8 (pthat > X)
+     - [ ] Pythia8
+       - [ ] pthat > 15 GeV 
 
 2. Skim production: 
    - [ ] MB data
