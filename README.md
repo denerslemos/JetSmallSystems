@@ -81,7 +81,7 @@ alias condstat='condor_status -schedd'
 
 To copy files for your local machine use xrdcp, example
 ```
-xrdcp -d 1 -f root://cmsxrootd.fnal.gov//store/user/ddesouza/PAEGJet1/HiForest_pPb_8TeV_JetsA_out/211210_061724/0000/HiForestAOD_1.root . &> out.txt &
+xrdcp -d 1 -f root://cmsxrootd.fnal.gov//store/user/ddesouza/PAEGJet1/HiForest_pPb_8TeV_p-going_JetSamples_out/211211_161432/0000/HiForestAOD_1.root . &> out.txt &
 ```
 
 To access files and create a list of files you can use xrdfs, example:
