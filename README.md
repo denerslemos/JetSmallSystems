@@ -2,17 +2,19 @@
 
 This branch contain relevant information about the data processing of pPb at 8.16 TeV dataset collected by CMS in the Run2 at November/December of 2016. In addition, the status and step-by-step usage of the codes are included as follows:
 
-## codes:
+## code structure and steps:
 
 > HiForest
 > > Setup for official HiForest setup. Intructions to add event plane informations and pixel layers with measurements are also included
+
 > Skim
 > > Produce the skims using HiForest as input. We can use CRAB3 or HTCondor to production and is useful to reduce the size of files.
+
 > HiForest
-> HiForest
+>> HiForest
 
 
-## steps/status:
+## Status:
 
 1. HiForest production: Ongoing -> stored at T2_BR_SPRACE
    - Data
