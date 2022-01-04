@@ -16,7 +16,7 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
 > > C++ code using ROOT framework to produce the histograms for analysis: Delta R, 2PC, ... . Mixing is done at this step.
 
 > Macros
-> > ROOT used to produce the result plots, fits and so on for our analysis 
+> > Codes using ROOT to produce the result plots, fits and so on for our analysis 
 
 ## Status:
 
