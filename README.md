@@ -54,9 +54,3 @@ alias bigbird19='export _condor_SCHEDD_HOST="bigbird19.cern.ch" export _condor_C
 
 alias condstat='condor_status -schedd'
 ```
-CMSSW Setup
-
-```
-export SCRAM_ARCH=slc7_amd64_gcc530
-
-```
