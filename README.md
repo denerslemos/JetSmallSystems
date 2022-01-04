@@ -9,18 +9,40 @@ This branch contain relevant information about the data processing of pPb at 8.1
 
 ## steps/status:
 
-1. HiForest prodution: Ongoing
+1. HiForest production: Ongoing -> stored at T2_BR_SPRACE
    - Data
      - [ ] MB
      - [ ] HM
-     - [x] Jet
+     - [x] Jet -> do not include EP information
+       - p-going:  /store/user/ddesouza/PAEGJet1/HiForest_pPb_8TeV_p-going_JetSamples_out/211211_161432/000*
+       - Pb-going: /store/user/ddesouza/PAEGJet1/HiForest_pPb_8TeV_Pb-going_JetSamples_out/211211_162021/000*
 
-   - MC simulations
+   - MC simulations: Ongoing -> stored at T2_BR_SPRACE
      - [ ] EPOS MB
      - [ ] HIJING MB
      - [ ] AMPT MB
-     - [ ] Pythia8
-       - [ ] pthat > 15 GeV 
+     - [ ] Pythia8 -> unembedded
+       - [x] pthat > 15 GeV 
+         - p-going:  /store/user/ahingraj/Dijet_pThat-15_pPb-EmbEPOS_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat15_emb_p-going_out/211221_222018/0000/
+         - Pb-going: /store/user/ahingraj/Dijet_pThat-15_PbP-EmbEPOS_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat15_emb_Pb-going_out/211221_222028/0000/
+       - [ ] pthat > 30 GeV 
+       - [ ] pthat > 50 GeV 
+       - [ ] pthat >  GeV 
+       - [ ] pthat >  GeV 
+       - [ ] pthat >  GeV 
+       - [ ] pthat >  GeV 
+       - [ ] pthat >  GeV 
+     - [ ] Pythia8 -> embedded
+       - [x] pthat > 15 GeV
+         - p-going:  /store/user/ahingraj/Dijet_pThat-15_pPb-EmbEPOS_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat15_emb_p-going_out/211221_222018/0000/
+         - Pb-going: /store/user/ahingraj/Dijet_pThat-15_PbP-EmbEPOS_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat15_emb_Pb-going_out/211221_222028/0000/
+       - [ ] pthat > 30 GeV 
+       - [ ] pthat > 50 GeV 
+       - [ ] pthat >  GeV 
+       - [ ] pthat >  GeV 
+       - [ ] pthat >  GeV 
+       - [ ] pthat >  GeV 
+       - [ ] pthat >  GeV 
 
 2. Skim production: 
    - [ ] MB data
@@ -30,7 +52,8 @@ This branch contain relevant information about the data processing of pPb at 8.1
 
 3. Histograms/observables:
 
-## advice for CMS users: add the following lines in your ~/.bashrc
+## Advice for CMS users: 
+### Add the following lines in your ~/.bashrc
 
 Crab setup
 ```
@@ -52,5 +75,16 @@ alias bigbird17='export _condor_SCHEDD_HOST="bigbird17.cern.ch" export _condor_C
 alias bigbird18='export _condor_SCHEDD_HOST="bigbird18.cern.ch" export _condor_CREDD_HOST="bigbird18.cern.ch"'
 alias bigbird19='export _condor_SCHEDD_HOST="bigbird19.cern.ch" export _condor_CREDD_HOST="bigbird19.cern.ch"'
 
-alias condstat='condor_status -schedd'
+alias condstat='condor_status -schedd' 
+```
+### Useful xrootd commands
+
+To copy files for your local machine use xrdcp, example
+```
+xrdcp -d 1 -f root://cmsxrootd.fnal.gov//store/user/ddesouza/PAEGJet1/HiForest_pPb_8TeV_JetsA_out/211210_061724/0000/HiForestAOD_1.root . &> out.txt &
+```
+
+To access files and create a list of files you can use xrdfs, example:
+```
+xrdfs root://cmsxrootd.fnal.gov ls /store/user/ddesouza/PAEGJet1/HiForest_pPb_8TeV_p-going_JetSamples_out/211211_161432/0000/ &> listofforestfiles.txt &
 ```
