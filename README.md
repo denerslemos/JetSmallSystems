@@ -37,13 +37,6 @@ Crab setup
 source /cvmfs/cms.cern.ch/crab3/crab.sh
 ```
 
-Alias for CMSSW version (example for pPb at 8.16 TeV)
-```
-alias scramppb = 'export SCRAM_ARCH=slc7_amd64_gcc530'
-
-...
-```
-
 Useful for HTcondor jobs:
 ```
 alias bigbird08='export _condor_SCHEDD_HOST="bigbird08.cern.ch" export _condor_CREDD_HOST="bigbird08.cern.ch"'
@@ -60,4 +53,10 @@ alias bigbird18='export _condor_SCHEDD_HOST="bigbird18.cern.ch" export _condor_C
 alias bigbird19='export _condor_SCHEDD_HOST="bigbird19.cern.ch" export _condor_CREDD_HOST="bigbird19.cern.ch"'
 
 alias condstat='condor_status -schedd'
+```
+CMSSW Setup
+
+```
+export SCRAM_ARCH=slc7_amd64_gcc530
+
 ```
