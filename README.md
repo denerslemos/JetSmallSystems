@@ -2,7 +2,7 @@
 
 This branch contain relevant information about the data processing of pPb at 8.16 TeV dataset collected by CMS in the Run2 at November/December of 2016. In addition, the status and step-by-step usage of the codes are included as follows:
 
-## code structure and steps:
+## Code structure and steps:
 
 HiForest production -> Make the skims -> produce histograms -> run macros for plots
 
