@@ -4,6 +4,8 @@ This branch contain relevant information about the data processing of pPb at 8.1
 
 ## code structure and steps:
 
+HiForest production -> Make the skims -> produce histograms -> run macros for plots
+
 > HiForest
 > > Setup for official HiForest setup. Intructions to add event plane informations are also included
 
