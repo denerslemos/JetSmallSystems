@@ -1,4 +1,4 @@
-#HiForest Setup
+# HiForest Setup
 
 For pPb at 8.16 TeV the CMSSW version 8_0_28 must be used:
 
