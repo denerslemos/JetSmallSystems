@@ -10,9 +10,11 @@ This branch contain relevant information about the data processing of pPb at 8.1
 > Skim
 > > Produce the skims using HiForest as input. We can use CRAB3 or HTCondor to production and is useful to reduce the size of files.
 
-> HiForest
->> HiForest
+> Histo
+> > C++ code using ROOT framework to produce the histograms for analysis: Delta R, 2PC, ... . Mixing is done at this step.
 
+> Macros
+> > ROOT used to produce the result plots, fits and so on for our analysis 
 
 ## Status:
 
