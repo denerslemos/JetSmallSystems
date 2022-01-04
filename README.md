@@ -21,29 +21,29 @@ This branch contain relevant information about the data processing of pPb at 8.1
      - [ ] EPOS MB
      - [ ] HIJING MB
      - [ ] AMPT MB
-     - [ ] Pythia8 -> unembedded
+     - [ ] Pythia8 - unembedded
        - [x] pthat > 15 GeV 
-         - p-going:  /store/user/ahingraj/Dijet_pThat-15_pPb-EmbEPOS_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat15_emb_p-going_out/211221_222018/0000/
-         - Pb-going: /store/user/ahingraj/Dijet_pThat-15_PbP-EmbEPOS_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat15_emb_Pb-going_out/211221_222028/0000/
+         - p-going:  /store/user/ddesouza/Dijet_pThat-15_pPb-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat15_p-going_out/211221_205440/0000/
+         - Pb-going: /store/user/ddesouza/Dijet_pThat-15_PbP-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat15_Pb-going_out/211221_205448/0000/
        - [ ] pthat > 30 GeV 
        - [ ] pthat > 50 GeV 
-       - [ ] pthat >  GeV 
-       - [ ] pthat >  GeV 
-       - [ ] pthat >  GeV 
-       - [ ] pthat >  GeV 
-       - [ ] pthat >  GeV 
-     - [ ] Pythia8 -> embedded
+       - [ ] pthat > 80 GeV 
+       - [ ] pthat > 120 GeV 
+       - [ ] pthat > 220 GeV 
+       - [ ] pthat > 370 GeV 
+       - [ ] pthat > 540 GeV 
+     - [ ] Pythia8 - embedded (using EPOS) -> Abhishek
        - [x] pthat > 15 GeV
          - p-going:  /store/user/ahingraj/Dijet_pThat-15_pPb-EmbEPOS_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat15_emb_p-going_out/211221_222018/0000/
          - Pb-going: /store/user/ahingraj/Dijet_pThat-15_PbP-EmbEPOS_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat15_emb_Pb-going_out/211221_222028/0000/
        - [ ] pthat > 30 GeV 
        - [ ] pthat > 50 GeV 
-       - [ ] pthat >  GeV 
-       - [ ] pthat >  GeV 
-       - [ ] pthat >  GeV 
-       - [ ] pthat >  GeV 
-       - [ ] pthat >  GeV 
-
+       - [ ] pthat > 80 GeV 
+       - [ ] pthat > 120 GeV 
+       - [ ] pthat > 220 GeV 
+       - [ ] pthat > 370 GeV 
+       - [ ] pthat > 540 GeV 
+      
 2. Skim production: 
    - [ ] MB data
    - [ ] HM data
