@@ -25,8 +25,8 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
      - [ ] MB
      - [ ] HM
      - [x] Jet -> do not include EP information
-       - p-going:  /store/user/ddesouza/PAEGJet1/HiForest_pPb_8TeV_p-going_JetSamples_out/211211_161432/000*
-       - Pb-going: /store/user/ddesouza/PAEGJet1/HiForest_pPb_8TeV_Pb-going_JetSamples_out/211211_162021/000*
+       - p-going:  /store/user/ddesouza/PAEGJet1/HiForest_pPb_8TeV_p-going_JetSamples_out/211211_161432/*
+       - Pb-going: /store/user/ddesouza/PAEGJet1/HiForest_pPb_8TeV_Pb-going_JetSamples_out/211211_162021/*
 
    - MC simulations: Ongoing -> stored at T2_BR_SPRACE
      - [ ] EPOS MB
@@ -34,29 +34,29 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
      - [ ] AMPT MB
      - [x] Pythia8 - unembedded -> Gen particle pT > 5 GeV
        - [x] pthat > 15 GeV 
-         - p-going:  /store/user/ddesouza/Dijet_pThat-15_pPb-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat15_p-going_out/211221_205440/0000/
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-15_PbP-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat15_Pb-going_out/211221_205448/0000/
+         - p-going:  /store/user/ddesouza/Dijet_pThat-15_pPb-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat15_p-going_out/211221_205440/*
+         - Pb-going: /store/user/ddesouza/Dijet_pThat-15_PbP-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat15_Pb-going_out/211221_205448/*
        - [x] pthat > 30 GeV 
-         - p-going:  
-         - Pb-going: 
+         - p-going:  /store/user/ddesouza/Dijet_pThat-30_pPb-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat30_p-going_out/220104_173326/*
+         - Pb-going: /store/user/ddesouza/Dijet_pThat-30_PbP-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat30_Pb-going_out/220104_173336/*
        - [x] pthat > 50 GeV 
-         - p-going:  
-         - Pb-going:  
+         - p-going:  /store/user/ddesouza/Dijet_pThat-50_pPb-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat50_p-going_out/220104_173346/*
+         - Pb-going: /store/user/ddesouza/Dijet_pThat-50_PbP-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat50_Pb-going_out/220104_173356/*
        - [x] pthat > 80 GeV
-         - p-going:  
-         - Pb-going:  
+         - p-going:  /store/user/ddesouza/Dijet_pThat-80_pPb-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat80_p-going_out/220104_173405/*
+         - Pb-going: /store/user/ddesouza/Dijet_pThat-80_PbP-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat80_Pb-going_out/220104_173416/*
        - [x] pthat > 120 GeV 
-         - p-going:  
-         - Pb-going:       
+         - p-going:  /store/user/ddesouza/Dijet_pThat-120_pPb-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat120_p-going_out/220104_173425/*
+         - Pb-going: /store/user/ddesouza/Dijet_pThat-120_PbP-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat120_Pb-going_out/220104_173435/*
        - [x] pthat > 220 GeV
-         - p-going:  
-         - Pb-going:       
+         - p-going:  /store/user/ddesouza/Dijet_pThat-220_pPb-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat220_p-going_out/220104_173445/*
+         - Pb-going: /store/user/ddesouza/Dijet_pThat-220_PbP-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat220_Pb-going_out/220104_173455/*   
        - [x] pthat > 370 GeV
-         - p-going:  
-         - Pb-going:       
+         - p-going:  /store/user/ddesouza/Dijet_pThat-370_pPb-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat370_p-going_out/220104_173504/*
+         - Pb-going: /store/user/ddesouza/Dijet_pThat-370_PbP-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat370_Pb-going_out/220104_173514/*      
        - [x] pthat > 540 GeV
-         - p-going:  
-         - Pb-going:   
+         - p-going:  /store/user/ddesouza/Dijet_pThat-540_PbP-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat540_Pb-going_out/220104_173536/*
+         - Pb-going: /store/user/ddesouza/Dijet_pThat-540_pPb-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat540_p-going_out/220104_173525/*
      - [ ] Pythia8 - unembedded -> Gen particle pT > 0.4 GeV
        - [ ] pthat > 15 GeV 
          - p-going: 
