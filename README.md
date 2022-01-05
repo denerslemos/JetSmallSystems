@@ -32,17 +32,56 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
      - [ ] EPOS MB
      - [ ] HIJING MB
      - [ ] AMPT MB
-     - [ ] Pythia8 - unembedded
+     - [ ] Pythia8 - unembedded -> Gen particle pT > 5 GeV
        - [x] pthat > 15 GeV 
          - p-going:  /store/user/ddesouza/Dijet_pThat-15_pPb-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat15_p-going_out/211221_205440/0000/
          - Pb-going: /store/user/ddesouza/Dijet_pThat-15_PbP-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat15_Pb-going_out/211221_205448/0000/
+       - [x] pthat > 30 GeV 
+         - p-going:  
+         - Pb-going: 
+       - [x] pthat > 50 GeV 
+         - p-going:  
+         - Pb-going:  
+       - [x] pthat > 80 GeV
+         - p-going:  
+         - Pb-going:  
+       - [x] pthat > 120 GeV 
+         - p-going:  
+         - Pb-going:       
+       - [x] pthat > 220 GeV
+         - p-going:  
+         - Pb-going:       
+       - [x] pthat > 370 GeV
+         - p-going:  
+         - Pb-going:       
+       - [x] pthat > 540 GeV
+         - p-going:  
+         - Pb-going:   
+     - [ ] Pythia8 - unembedded -> Gen particle pT > 0.4 GeV
+       - [ ] pthat > 15 GeV 
+         - p-going: 
+         - Pb-going:
        - [ ] pthat > 30 GeV 
+         - p-going:  
+         - Pb-going: 
        - [ ] pthat > 50 GeV 
-       - [ ] pthat > 80 GeV 
+         - p-going:  
+         - Pb-going:  
+       - [ ] pthat > 80 GeV
+         - p-going:  
+         - Pb-going:  
        - [ ] pthat > 120 GeV 
-       - [ ] pthat > 220 GeV 
-       - [ ] pthat > 370 GeV 
-       - [ ] pthat > 540 GeV 
+         - p-going:  
+         - Pb-going:       
+       - [ ] pthat > 220 GeV
+         - p-going:  
+         - Pb-going:       
+       - [ ] pthat > 370 GeV
+         - p-going:  
+         - Pb-going:       
+       - [ ] pthat > 540 GeV
+         - p-going:  
+         - Pb-going:       
      - [ ] Pythia8 - embedded (using EPOS) -> Abhishek
        - [x] pthat > 15 GeV
          - p-going:  /store/user/ahingraj/Dijet_pThat-15_pPb-EmbEPOS_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat15_emb_p-going_out/211221_222018/0000/
