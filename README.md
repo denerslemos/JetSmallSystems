@@ -32,7 +32,7 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
      - [ ] EPOS MB
      - [ ] HIJING MB
      - [ ] AMPT MB
-     - [ ] Pythia8 - unembedded -> Gen particle pT > 5 GeV
+     - [x] Pythia8 - unembedded -> Gen particle pT > 5 GeV
        - [x] pthat > 15 GeV 
          - p-going:  /store/user/ddesouza/Dijet_pThat-15_pPb-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat15_p-going_out/211221_205440/0000/
          - Pb-going: /store/user/ddesouza/Dijet_pThat-15_PbP-Bst_8p16_Pythia8/HiForest_pPb_PYTHIA8_pthat15_Pb-going_out/211221_205448/0000/
