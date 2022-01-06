@@ -1,4 +1,4 @@
-# pPb at 8.16 TeV
+# Jet pPb analysis at 8.16 TeV
 
 This branch contain relevant information about the data processing of pPb at 8.16 TeV dataset collected by CMS in the Run2 at November/December of 2016. In addition, the status and step-by-step usage of the codes are included as follows:
 
