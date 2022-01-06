@@ -42,7 +42,7 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
          - Pb-going:
          
      - [x] Pythia8 - Dijet - unembedded
-       - pthat > 15 GeV 
+       - [x] pthat > 15 GeV 
          - p-going:  /store/user/ddesouza/Dijet_pThat-15_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat15_p-going_out/220105_185751/0000
          - Pb-going: /store/user/ddesouza/Dijet_pThat-15_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat15_Pb-going_out/220105_190525/0000
        - [x] pthat > 30 GeV 
