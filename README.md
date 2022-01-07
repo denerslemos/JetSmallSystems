@@ -15,7 +15,7 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
 > > > >
 > > > Or EPOS, AMPT and HIJING for respective MC MB samples 
 > > > > 
-> > > Or PYTHIA8_Y, where Y means pthat greater than Y  
+> > > Or PYTHIA8_Y, where Y means pthat greater than Y for embedded and unembedded samples
 
 > Skim
 > > Produce the skims using HiForest as input. We can use CRAB3 or HTCondor to production and is useful to reduce the size of files.
