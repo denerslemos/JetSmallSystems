@@ -134,6 +134,20 @@ alias bigbird19='export _condor_SCHEDD_HOST="bigbird19.cern.ch" export _condor_C
 
 alias condstat='condor_status -schedd' 
 ```
+### Useful CRAB3 commands
+First import your voms using
+```
+voms-proxy-init -rfc -voms cms
+```
+In the crab configuration files included, the jobs are submitted using a python command (do not forget voms command)
+```
+python crabfile.py
+```
+To check status of your jobs, you can just use ```crab status -d workArea/requestName/```, where workArea and requestName are folders generated automatically based on the name included in your crab configuration file. Example: for (must be finalized today)
+```
+crab status -d workArea/requestName/
+```
+
 ### Useful xrootd commands
 
 To copy files for your local machine use xrdcp, example
