@@ -9,6 +9,13 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
 > HiForest
 > > Setup for official HiForest setup. Intructions to add event plane informations are also included
 
+> List_of_files
+> > To make it easy and fast the skim production I already include the list of forest files for data and MC in this folder
+> > > list_of_forest_p-going_X.txt or list_of_forest_Pb-going_X.txt:
+> > > > Where X can be MB for minimum bias, HM for high multiplicity and JETS for jet samples
+> > > > Or can be EPOS, AMPT and HIJING for respective MC MB samples 
+> > > > Or can be PYTHIA8_Y, where Y is the  
+
 > Skim
 > > Produce the skims using HiForest as input. We can use CRAB3 or HTCondor to production and is useful to reduce the size of files.
 
@@ -41,7 +48,7 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
          - p-going: 
          - Pb-going:
          
-     - [x] Pythia8 - Dijet - unembedded
+     - [x] Pythia8 - Dijet - unembedded - EP information not included
        - [x] pthat > 15 GeV 
          - p-going:  /store/user/ddesouza/Dijet_pThat-15_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat15_p-going_out/220105_185751/0000
          - Pb-going: /store/user/ddesouza/Dijet_pThat-15_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat15_Pb-going_out/220105_190525/0000
@@ -67,31 +74,31 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
          - p-going:  /store/user/ddesouza/Dijet_pThat-540_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat540_p-going_out/220105_191443/0000
          - Pb-going: /store/user/ddesouza/Dijet_pThat-540_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat540_Pb-going_out/220105_191528/0000
       
-     - [ ] Pythia8  - Dijet - embedded (using EPOS)
-       - [ ] pthat > 15 GeV
-         - p-going:  
-         - Pb-going: 
-       - [ ] pthat > 30 GeV 
-         - p-going: 
-         - Pb-going: 
-       - [ ] pthat > 50 GeV
-         - p-going: 
-         - Pb-going:    
-       - [ ] pthat > 80 GeV
-         - p-going: 
-         - Pb-going:    
-       - [ ] pthat > 120 GeV
-         - p-going: 
-         - Pb-going: 
-       - [ ] pthat > 220 GeV
-         - p-going: 
-         - Pb-going:   
-       - [ ] pthat > 370 GeV
-         - p-going: 
-         - Pb-going:  
-       - [ ] pthat > 540 GeV
-         - p-going: 
-         - Pb-going: 
+     - [x] Pythia8  - Dijet - embedded (using EPOS) - EP information not included
+       - [x] pthat > 15 GeV
+         - p-going:  /store/user/ddesouza/Dijet_pThat-15_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat15_p-going_out/220106_053602/0000  
+         - Pb-going: /store/user/ddesouza/Dijet_pThat-15_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat15_Pb-going_out/220106_053611/0000
+       - [x] pthat > 30 GeV 
+         - p-going:  /store/user/ddesouza/Dijet_pThat-30_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat30_p-going_out/220106_053620/0000
+         - Pb-going: /store/user/ddesouza/Dijet_pThat-30_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat30_Pb-going_out/220106_053628/0000
+       - [x] pthat > 50 GeV
+         - p-going:  /store/user/ddesouza/Dijet_pThat-50_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat50_p-going_out/220106_053637/0000
+         - Pb-going: /store/user/ddesouza/Dijet_pThat-50_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat50_Pb-going_out/220106_053646/0000
+       - [x] pthat > 80 GeV
+         - p-going:  /store/user/ddesouza/Dijet_pThat-80_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat80_p-going_out/220106_053655/0000
+         - Pb-going: /store/user/ddesouza/Dijet_pThat-80_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat80_Pb-going_out/220106_053704/0000
+       - [x] pthat > 120 GeV
+         - p-going:  /store/user/ddesouza/Dijet_pThat-120_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat120_p-going_out/220106_053713/0000
+         - Pb-going: /store/user/ddesouza/Dijet_pThat-120_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat120_Pb-going_out/220106_053722/0000
+       - [x] pthat > 220 GeV
+         - p-going:  /store/user/ddesouza/Dijet_pThat-220_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat220_p-going_out/220106_053731/0000
+         - Pb-going: /store/user/ddesouza/Dijet_pThat-220_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat220_Pb-going_out/220106_053740/0000
+       - [x] pthat > 370 GeV
+         - p-going:  /store/user/ddesouza/Dijet_pThat-370_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat370_p-going_out/220106_053748/0000
+         - Pb-going: /store/user/ddesouza/Dijet_pThat-370_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat370_Pb-going_out/220106_053757/0000
+       - [x] pthat > 540 GeV
+         - p-going:  /store/user/ddesouza/Dijet_pThat-540_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat540_p-going_out/220106_053806/0000
+         - Pb-going: /store/user/ddesouza/Dijet_pThat-540_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat540_Pb-going_out/220106_053815/0000
       
 2. Skim production: 
    - [ ] MB data
