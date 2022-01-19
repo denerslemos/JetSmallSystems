@@ -64,13 +64,22 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
          - Pb-going: /store/user/ddesouza/Dijet_pThat-80_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat80_Pb-going_out/220105_190943/0000
        - [x] pthat > 120 GeV 
          - p-going:  /store/user/ddesouza/Dijet_pThat-120_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat120_p-going_out/220105_191026/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-120_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat120_Pb-going_out/220105_191109/0000     
+         - Pb-going: /store/user/ddesouza/Dijet_pThat-120_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat120_Pb-going_out/220105_191109/0000
+       - [ ] pthat > 170 GeV      
+         - p-going:  
+         - Pb-going:  
        - [x] pthat > 220 GeV
          - p-going:  /store/user/ddesouza/Dijet_pThat-220_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat220_p-going_out/220105_191152/0000
          - Pb-going: /store/user/ddesouza/Dijet_pThat-220_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat220_Pb-going_out/220105_191234/0000     
+       - [ ] pthat > 280 GeV
+         - p-going:  
+         - Pb-going:      
        - [x] pthat > 370 GeV
          - p-going:  /store/user/ddesouza/Dijet_pThat-370_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat370_p-going_out/220105_191317/0000
          - Pb-going: /store/user/ddesouza/Dijet_pThat-370_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat370_Pb-going_out/220105_191400/0000
+       - [ ] pthat > 460 GeV
+         - p-going:  
+         - Pb-going: 
        - [x] pthat > 540 GeV
          - p-going:  /store/user/ddesouza/Dijet_pThat-540_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat540_p-going_out/220105_191443/0000
          - Pb-going: /store/user/ddesouza/Dijet_pThat-540_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat540_Pb-going_out/220105_191528/0000
