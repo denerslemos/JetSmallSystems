@@ -100,13 +100,13 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
        - [x] pthat > 120 GeV
          - p-going:  /store/user/ddesouza/Dijet_pThat-120_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat120_p-going_out/220106_053713/0000
          - Pb-going: /store/user/ddesouza/Dijet_pThat-120_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat120_Pb-going_out/220106_053722/0000
-       - [ ] pthat > 170 GeV
-         - p-going:
-         - Pb-going: 
+       - [x] pthat > 170 GeV
+         - p-going:  /store/user/ddesouza/Dijet_pThat-170_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat170_p-going_out/220120_045548/0000
+         - Pb-going: /store/user/ddesouza/Dijet_pThat-170_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat170_Pb-going_out/220120_045557/0000
        - [x] pthat > 220 GeV
          - p-going:  /store/user/ddesouza/Dijet_pThat-220_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat220_p-going_out/220106_053731/0000
          - Pb-going: /store/user/ddesouza/Dijet_pThat-220_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat220_Pb-going_out/220106_053740/0000
-       - [ ] pthat > 280 GeV
+       - [x] pthat > 280 GeV
          - p-going:  /store/user/ddesouza/Dijet_pThat-280_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat280_p-going_out/220120_045606/0000
          - Pb-going: /store/user/ddesouza/Dijet_pThat-280_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat280_Pb-going_out/220120_045615/0000
        - [x] pthat > 370 GeV
