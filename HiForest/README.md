@@ -32,7 +32,6 @@ scram build -j10
 cd HeavyIonsAnalysis/JetAnalysis/test/
 ./runtest.sh
 # Once tests are done:
-cd $CMSSW_BASE/src/HeavyIonsAnalysis/HeavyIonsAnalysis/JetAnalysis/
+cd $CMSSW_BASE/src/HeavyIonsAnalysis/HeavyIonsAnalysis/JetAnalysis/test/
 mkdir workstation && cd workstation
-cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/workstation . && cd workstation
 ```
