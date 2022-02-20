@@ -13,6 +13,7 @@ git cms-merge-topic -u CmsHI:forest_CMSSW_8_0_28
 git remote add cmshi git@github.com:CmsHI/cmssw.git
 git fetch cmshi --no-tags
 git checkout -b forest_CMSSW_8_0_28 remotes/cmshi/forest_CMSSW_8_0_28
+cmsenv
 # Dener's changes
 cp /afs/cern.ch/work/d/ddesouza/public/ForForest/TrackAnalyzer.cc $CMSSW_BASE/src/HeavyIonsAnalysis/TrackAnalysis/src/
 cp /afs/cern.ch/work/d/ddesouza/public/ForForest/METAnalyzer.cc $CMSSW_BASE/src/HeavyIonsAnalysis/TrackAnalysis/src/
