@@ -26,8 +26,8 @@ cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/CondFormats $CMSSW_BASE/src/
 cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/EPfiles $CMSSW_BASE/src/
 cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/HiEvtPlaneAlgos $CMSSW_BASE/src/RecoHI/
 cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/HiEvtPlaneCalib $CMSSW_BASE/src/HeavyIonsAnalysis/
-cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/QWNtrkOfflineProducer $CMSSW_BASE/src/RecoHI/
-cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/VNAnalysis $CMSSW_BASE/src/RecoHI/
+cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/QWNtrkOfflineProducer $CMSSW_BASE/src/HeavyIonsAnalysis/
+cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/VNAnalysis $CMSSW_BASE/src/HeavyIonsAnalysis/
 # Now compile and test
 scram build -j4
 cd HeavyIonsAnalysis/JetAnalysis/test/
