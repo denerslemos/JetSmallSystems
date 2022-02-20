@@ -29,7 +29,7 @@ cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/HiEvtPlaneCalib $CMSSW_BASE/
 cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/QWNtrkOfflineProducer $CMSSW_BASE/src/HeavyIonsAnalysis/
 cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/VNAnalysis $CMSSW_BASE/src/HeavyIonsAnalysis/
 # Now compile and test
-scram build -j4
+scram build -j10
 cd HeavyIonsAnalysis/JetAnalysis/test/
 ./runtest.sh
 # Once tests are done use the files added here for each case of interest. Download it as:
