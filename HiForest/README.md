@@ -16,7 +16,12 @@ git checkout -b forest_CMSSW_8_0_28 remotes/cmshi/forest_CMSSW_8_0_28
 scram build -j4
 cd HeavyIonsAnalysis/JetAnalysis/test/
 ./runtest.sh
-# Include event plane information -> Need to adapt event plane code from: https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideHeavyIonFlatEvtPlane#CMSSW_8_0_24_Instructions_2016_p
+# Include event plane information -> Need to adapt event plane code from: 
+# https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideHeavyIonFlatEvtPlane#CMSSW_8_0_24_Instructions_2016_p
+# You can directly copy like:
+
+#just recompile and run new cfg files:
+
 
 ```
 
