@@ -23,7 +23,6 @@ cp /afs/cern.ch/work/d/ddesouza/public/ForForest/HiGenAnalyzer_cfi.py $CMSSW_BAS
 # https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideHeavyIonFlatEvtPlane#CMSSW_8_0_24_Instructions_2016_p
 # To make it easy you can just copy those folders:
 cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/CondFormats $CMSSW_BASE/src/
-cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/EPfiles $CMSSW_BASE/src/
 cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/HiEvtPlaneAlgos $CMSSW_BASE/src/RecoHI/
 cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/HiEvtPlaneCalib $CMSSW_BASE/src/HeavyIonsAnalysis/
 cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/QWNtrkOfflineProducer $CMSSW_BASE/src/HeavyIonsAnalysis/
@@ -34,5 +33,6 @@ cd HeavyIonsAnalysis/JetAnalysis/test/
 ./runtest.sh
 # Once tests are done:
 cd $CMSSW_BASE/src/HeavyIonsAnalysis/HeavyIonsAnalysis/JetAnalysis/
-git clone ...
+mkdir workstation && cd workstation
+cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/workstation . && cd workstation
 ```
