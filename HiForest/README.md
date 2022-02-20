@@ -13,15 +13,17 @@ git cms-merge-topic -u CmsHI:forest_CMSSW_8_0_28
 git remote add cmshi git@github.com:CmsHI/cmssw.git
 git fetch cmshi --no-tags
 git checkout -b forest_CMSSW_8_0_28 remotes/cmshi/forest_CMSSW_8_0_28
+cp /afs/cern.ch/work/d/ddesouza/public/ForForest/TrackAnalyzer.cc $CMSSW_BASE/src/HeavyIonsAnalysis/TrackAnalysis/src/
+# for MC simulations
+cp /afs/cern.ch/work/d/ddesouza/public/ForForest/TrackAnalyzer.cc $CMSSW_BASE/src/HeavyIonsAnalysis/TrackAnalysis/src/
+# Include event plane information -> Need to adapt event plane code from: 
+# https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideHeavyIonFlatEvtPlane#CMSSW_8_0_24_Instructions_2016_p
+# To make it easy you can just copy those folders:
+
+# Now compile and test
 scram build -j4
 cd HeavyIonsAnalysis/JetAnalysis/test/
 ./runtest.sh
-# Include event plane information -> Need to adapt event plane code from: 
-# https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideHeavyIonFlatEvtPlane#CMSSW_8_0_24_Instructions_2016_p
-# You can directly copy like:
-
-#just recompile and run new cfg files:
-
+# Once tests are done use the files added here for each case of interest. Download it as:
 
 ```
-
