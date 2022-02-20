@@ -32,5 +32,7 @@ cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/VNAnalysis $CMSSW_BASE/src/H
 scram build -j10
 cd HeavyIonsAnalysis/JetAnalysis/test/
 ./runtest.sh
-# Once tests are done use the files added here for each case of interest. Download it as:
+# Once tests are done:
+cd $CMSSW_BASE/src/HeavyIonsAnalysis/HeavyIonsAnalysis/JetAnalysis/
+git clone ...
 ```
