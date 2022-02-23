@@ -1,6 +1,7 @@
 # HiForest Setup
 
-For pPb at 8.16 TeV the CMSSW version 8_0_28 must be used:
+
+For pPb at 8.16 TeV the CMSSW version 8_0_28 must be used (based on https://twiki.cern.ch/twiki/bin/viewauth/CMS/HiForestSetup#Setup_for_8_0_28):
 
 ```
 # Setup CMSSW version
