@@ -30,8 +30,11 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
 
 1. HiForest production: Ongoing -> stored at T2_BR_SPRACE
    - Data
-     - [ ] MB - ntrkoff -> [0,185] -> It has more statistics than HM0 :)
-     - [ ] HM - ntrkoff -> [185, 250] (for HM 1 to 6) and [250, 400] (for HM 7)
+     - [ ] MB - Ntrkoff -> range [0,185] -> It has more statistics than HM0 in the range [120, 185] :)
+     - [ ] HM - Ntrkoff -> range [185, 250] (HM1to6)
+     - [ ] HM - Ntrkoff -> range [250, inf] (HM7)
+       - p-going: /store/user/ddesouza/PAHighMultiplicity7/Forest_pPb_8p16TeV_Pbgoing_Trigger_HM250_out/220306_161142/*
+       - Pb-going: /store/user/ddesouza/PAHighMultiplicity7/Forest_pPb_8p16TeV_Pbgoing_Trigger_HM250_out/220306_161142/*
      - [x] Jet samples -> EP information not included
        - p-going:  /store/user/ddesouza/PAEGJet1/HiForest_pPb_8TeV_p-going_JetSamples_out/211211_161432/*
        - Pb-going: /store/user/ddesouza/PAEGJet1/HiForest_pPb_8TeV_Pb-going_JetSamples_out/211211_162021/*
