@@ -29,11 +29,17 @@ cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/HiEvtPlaneAlgos $CMSSW_BASE/
 cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/HiEvtPlaneCalib $CMSSW_BASE/src/HeavyIonsAnalysis/
 cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/QWNtrkOfflineProducer $CMSSW_BASE/src/HeavyIonsAnalysis/
 cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/VNAnalysis $CMSSW_BASE/src/HeavyIonsAnalysis/
+cp -r /afs/cern.ch/work/d/ddesouza/public/ForForest/workstation $CMSSW_BASE/src/HeavyIonsAnalysis/JetAnalysis/test/
 # Now compile and test
 scram build -j10
 cd HeavyIonsAnalysis/JetAnalysis/test/
 ./runtest.sh
-# Once tests are done:
-cd $CMSSW_BASE/src/HeavyIonsAnalysis/HeavyIonsAnalysis/JetAnalysis/test/
-mkdir workstation && cd workstation
+# Once tests are done, go to:
+cd $CMSSW_BASE/src/HeavyIonsAnalysis/HeavyIonsAnalysis/JetAnalysis/test/workstation
 ```
+Each folder inside of ```workstation``` contain the crab files to submit for different datasets. Do not run for MC yet (will be updated soon).
+To submit crab jobs you just need to use the following command:
+```
+python crab_file.py
+```
+The Forest root output files will be stored at SPRACE/Brazil.
