@@ -17,6 +17,7 @@ git checkout -b forest_CMSSW_8_0_28 remotes/cmshi/forest_CMSSW_8_0_28
 cmsenv
 # Dener's changes
 cp /afs/cern.ch/work/d/ddesouza/public/ForForest/TrackAnalyzer.cc $CMSSW_BASE/src/HeavyIonsAnalysis/TrackAnalysis/src/
+cp /afs/cern.ch/work/d/ddesouza/public/ForForest/trackAnalyzer_cfi.py $CMSSW_BASE/src/HeavyIonsAnalysis/TrackAnalysis/python/
 cp /afs/cern.ch/work/d/ddesouza/public/ForForest/METAnalyzer.cc $CMSSW_BASE/src/HeavyIonsAnalysis/TrackAnalysis/src/
 cp /afs/cern.ch/work/d/ddesouza/public/ForForest/METAnalyzer*.py $CMSSW_BASE/src/HeavyIonsAnalysis/TrackAnalysis/python/
 cp /afs/cern.ch/work/d/ddesouza/public/ForForest/HiGenAnalyzer_cfi.py $CMSSW_BASE/src/HeavyIonsAnalysis/JetAnalysis/python/ 
