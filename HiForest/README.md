@@ -37,8 +37,8 @@ cd HeavyIonsAnalysis/JetAnalysis/test/
 # Once tests are done, go to:
 cd $CMSSW_BASE/src/HeavyIonsAnalysis/HeavyIonsAnalysis/JetAnalysis/test/workstation
 ```
-Each folder inside of ```workstation``` contain the crab files to submit for different datasets. Do not run for MC yet (will be updated soon).
-To submit crab jobs you just need to use the following command:
+Each folder inside of ```workstation``` contain the crab configuration files to submit for different datasets. You do not need to change anything. Do not run for MC yet (will be updated soon).
+To submit crab jobs you just need to use the following command (after the VOMS command):
 ```
 python crab_file.py
 ```
