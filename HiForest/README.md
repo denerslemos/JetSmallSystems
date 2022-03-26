@@ -37,7 +37,7 @@ scram build -j10
 cd HeavyIonsAnalysis/JetAnalysis/test/
 ./runtest.sh
 # Once tests are done, go to:
-cd $CMSSW_BASE/src/HeavyIonsAnalysis/HeavyIonsAnalysis/JetAnalysis/test/workstation
+cd $CMSSW_BASE/src/HeavyIonsAnalysis/JetAnalysis/test/workstation
 ```
 Each folder inside of ```workstation``` contain the crab configuration files to submit for different datasets. You do not need to change anything. Do not run for MC yet (will be updated soon).
 To submit crab jobs you just need to use the following command (after the VOMS command):
