@@ -4,6 +4,8 @@
 For pPb at 8.16 TeV the CMSSW version 8_0_28 must be used (based on https://twiki.cern.ch/twiki/bin/viewauth/CMS/HiForestSetup#Setup_for_8_0_28):
 
 ```
+#VOMS
+voms-proxy-init -rfc -voms cms
 # Setup CMSSW version
 export SCRAM_ARCH=slc7_amd64_gcc530
 cmsrel CMSSW_8_0_28
