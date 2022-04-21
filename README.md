@@ -33,10 +33,12 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
      - [ ] MB - Ntrkoff -> range [0,185] -> It has more statistics than HM0 in the range [120, 185] :)
      - [ ] HM - Ntrkoff -> range [185, 250] (PD 1 to 6)
        - p-going: 
-         - 
+         - [x] /store/user/ddesouza/PAHighMultiplicity1/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_HM185_PD1/220326_030954/*
+         - [x] /store/user/ddesouza/PAHighMultiplicity2/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_HM185_PD2/220326_031425/*
+         - [x] /store/user/caber/PAHighMultiplicity5/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_HM185_PD5/220326_182617/*
+         - [x] /store/user/caber/PAHighMultiplicity6/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_HM185_PD6/220326_182730/
        - Pb-going:
-         - 
-         - /store/user/ddesouza/PAHighMultiplicity6/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_HM185_PD6/220401_154217/*
+         - [x] /store/user/ddesouza/PAHighMultiplicity6/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_HM185_PD6/220401_154217/*
      - [x] HM - Ntrkoff -> range [250, inf] (PD 7)
        - p-going: /store/user/ddesouza/PAHighMultiplicity7/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_HM250/220327_024216/*
        - Pb-going: /store/user/ddesouza/PAHighMultiplicity7/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_HM250/220327_024248/*
