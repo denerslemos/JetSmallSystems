@@ -33,18 +33,18 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
      - [ ] MB - Ntrkoff -> range [0,185] -> It has more statistics than HM0 in the range [120, 185] :)
      - [ ] HM - Ntrkoff -> range [185, 250] (PD 1 to 6)
        - p-going: 
-         - [x] /store/user/ddesouza/PAHighMultiplicity1/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_HM185_PD1/220326_030954/*
-         - [x] /store/user/ddesouza/PAHighMultiplicity2/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_HM185_PD2/220326_031425/*
-         - [x] /store/user/caber/PAHighMultiplicity5/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_HM185_PD5/220326_182617/*
-         - [x] /store/user/caber/PAHighMultiplicity6/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_HM185_PD6/220326_182730/
+         - [x] /ddesouza/PAHighMultiplicity1/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_HM185_PD1/220326_030954/*
+         - [x] /ddesouza/PAHighMultiplicity2/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_HM185_PD2/220326_031425/*
+         - [x] /caber/PAHighMultiplicity5/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_HM185_PD5/220326_182617/*
+         - [x] /caber/PAHighMultiplicity6/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_HM185_PD6/220326_182730/*
        - Pb-going:
          - [x] /store/user/ddesouza/PAHighMultiplicity6/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_HM185_PD6/220401_154217/*
      - [x] HM - Ntrkoff -> range [250, inf] (PD 7)
-       - p-going: /store/user/ddesouza/PAHighMultiplicity7/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_HM250/220327_024216/*
-       - Pb-going: /store/user/ddesouza/PAHighMultiplicity7/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_HM250/220327_024248/*
+       - p-going: /ddesouza/PAHighMultiplicity7/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_HM250/220327_024216/*
+       - Pb-going: /ddesouza/PAHighMultiplicity7/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_HM250/220327_024248/*
      - [x] Jet samples -> EP information not included
-       - p-going:/store/user/ddesouza/PAEGJet1/HiForest_pPb_8TeV_p-going_JetSamples_out/211211_161432/*
-       - Pb-going:/store/user/ddesouza/PAEGJet1/HiForest_pPb_8TeV_Pb-going_JetSamples_out/211211_162021/*
+       - p-going: /ddesouza/PAEGJet1/HiForest_pPb_8TeV_p-going_JetSamples_out/211211_161432/*
+       - Pb-going: /ddesouza/PAEGJet1/HiForest_pPb_8TeV_Pb-going_JetSamples_out/211211_162021/*
 
    - MC simulations: Ongoing -> stored at T2_BR_SPRACE
      - [ ] EPOS MB
@@ -61,73 +61,73 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
          
      - [x] Pythia8 - Dijet - unembedded - EP information not included
        - [x] pthat > 15 GeV 
-         - p-going:  /store/user/ddesouza/Dijet_pThat-15_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat15_p-going_out/220105_185751/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-15_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat15_Pb-going_out/220105_190525/0000
+         - p-going:  /ddesouza/Dijet_pThat-15_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat15_p-going_out/220105_185751/0000
+         - Pb-going: /ddesouza/Dijet_pThat-15_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat15_Pb-going_out/220105_190525/0000
        - [x] pthat > 30 GeV 
-         - p-going:  /store/user/ddesouza/Dijet_pThat-30_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat30_p-going_out/220105_190608/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-30_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat30_Pb-going_out/220105_190651/0000
+         - p-going:  /ddesouza/Dijet_pThat-30_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat30_p-going_out/220105_190608/0000
+         - Pb-going: /ddesouza/Dijet_pThat-30_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat30_Pb-going_out/220105_190651/0000
        - [x] pthat > 50 GeV 
-         - p-going:  /store/user/ddesouza/Dijet_pThat-50_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat50_p-going_out/220105_190734/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-50_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat50_Pb-going_out/220105_190818/0000
+         - p-going:  /ddesouza/Dijet_pThat-50_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat50_p-going_out/220105_190734/0000
+         - Pb-going: /ddesouza/Dijet_pThat-50_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat50_Pb-going_out/220105_190818/0000
        - [x] pthat > 80 GeV
-         - p-going:  /store/user/ddesouza/Dijet_pThat-80_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat80_p-going_out/220105_190900/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-80_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat80_Pb-going_out/220105_190943/0000
+         - p-going:  /ddesouza/Dijet_pThat-80_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat80_p-going_out/220105_190900/0000
+         - Pb-going: /ddesouza/Dijet_pThat-80_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat80_Pb-going_out/220105_190943/0000
        - [x] pthat > 120 GeV 
-         - p-going:  /store/user/ddesouza/Dijet_pThat-120_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat120_p-going_out/220105_191026/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-120_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat120_Pb-going_out/220105_191109/0000
+         - p-going:  /ddesouza/Dijet_pThat-120_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat120_p-going_out/220105_191026/0000
+         - Pb-going: /ddesouza/Dijet_pThat-120_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat120_Pb-going_out/220105_191109/0000
        - [x] pthat > 170 GeV      
-         - p-going:  /store/user/ddesouza/Dijet_pThat-170_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat170_p-going_out/220120_044002/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-170_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat170_Pb-going_out/220120_044448/0000
+         - p-going:  /ddesouza/Dijet_pThat-170_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat170_p-going_out/220120_044002/0000
+         - Pb-going: /ddesouza/Dijet_pThat-170_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat170_Pb-going_out/220120_044448/0000
        - [x] pthat > 220 GeV
-         - p-going:  /store/user/ddesouza/Dijet_pThat-220_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat220_p-going_out/220105_191152/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-220_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat220_Pb-going_out/220105_191234/0000     
+         - p-going:  /ddesouza/Dijet_pThat-220_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat220_p-going_out/220105_191152/0000
+         - Pb-going: /ddesouza/Dijet_pThat-220_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat220_Pb-going_out/220105_191234/0000     
        - [x] pthat > 280 GeV
-         - p-going:  /store/user/ddesouza/Dijet_pThat-280_pPb-Bst_8p16_Pythia8/New_HiForet_pPb_PYTHIA8_pthat280_p-going_out/220120_044020/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-280_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat280_Pb-going_out/220120_044029/0000
+         - p-going:  /ddesouza/Dijet_pThat-280_pPb-Bst_8p16_Pythia8/New_HiForet_pPb_PYTHIA8_pthat280_p-going_out/220120_044020/0000
+         - Pb-going: /ddesouza/Dijet_pThat-280_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat280_Pb-going_out/220120_044029/0000
        - [x] pthat > 370 GeV
-         - p-going:  /store/user/ddesouza/Dijet_pThat-370_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat370_p-going_out/220105_191317/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-370_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat370_Pb-going_out/220105_191400/0000
+         - p-going:  /ddesouza/Dijet_pThat-370_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat370_p-going_out/220105_191317/0000
+         - Pb-going: /ddesouza/Dijet_pThat-370_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat370_Pb-going_out/220105_191400/0000
        - [x] pthat > 460 GeV
-         - p-going:  /store/user/ddesouza/Dijet_pThat-460_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat460_p-going_out/220120_044039/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-460_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat460_Pb-going_out/220120_044048/0000
+         - p-going:  /ddesouza/Dijet_pThat-460_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat460_p-going_out/220120_044039/0000
+         - Pb-going: /ddesouza/Dijet_pThat-460_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat460_Pb-going_out/220120_044048/0000
        - [x] pthat > 540 GeV
-         - p-going:  /store/user/ddesouza/Dijet_pThat-540_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat540_p-going_out/220105_191443/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-540_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat540_Pb-going_out/220105_191528/0000
+         - p-going:  /ddesouza/Dijet_pThat-540_pPb-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat540_p-going_out/220105_191443/0000
+         - Pb-going: /ddesouza/Dijet_pThat-540_PbP-Bst_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_pthat540_Pb-going_out/220105_191528/0000
       
      - [x] Pythia8  - Dijet - embedded (using EPOS) - EP information not included
        - [x] pthat > 15 GeV
-         - p-going:  /store/user/ddesouza/Dijet_pThat-15_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat15_p-going_out/220106_053602/0000  
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-15_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat15_Pb-going_out/220106_053611/0000
+         - p-going:  /ddesouza/Dijet_pThat-15_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat15_p-going_out/220106_053602/0000  
+         - Pb-going: /ddesouza/Dijet_pThat-15_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat15_Pb-going_out/220106_053611/0000
        - [x] pthat > 30 GeV 
-         - p-going:  /store/user/ddesouza/Dijet_pThat-30_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat30_p-going_out/220106_053620/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-30_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat30_Pb-going_out/220106_053628/0000
+         - p-going: /ddesouza/Dijet_pThat-30_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat30_p-going_out/220106_053620/0000
+         - Pb-going: /ddesouza/Dijet_pThat-30_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat30_Pb-going_out/220106_053628/0000
        - [x] pthat > 50 GeV
-         - p-going:  /store/user/ddesouza/Dijet_pThat-50_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat50_p-going_out/220106_053637/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-50_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat50_Pb-going_out/220106_053646/0000
+         - p-going:  /ddesouza/Dijet_pThat-50_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat50_p-going_out/220106_053637/0000
+         - Pb-going: /ddesouza/Dijet_pThat-50_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat50_Pb-going_out/220106_053646/0000
        - [x] pthat > 80 GeV
-         - p-going:  /store/user/ddesouza/Dijet_pThat-80_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat80_p-going_out/220106_053655/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-80_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat80_Pb-going_out/220106_053704/0000
+         - p-going:  /ddesouza/Dijet_pThat-80_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat80_p-going_out/220106_053655/0000
+         - Pb-going: /ddesouza/Dijet_pThat-80_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat80_Pb-going_out/220106_053704/0000
        - [x] pthat > 120 GeV
-         - p-going:  /store/user/ddesouza/Dijet_pThat-120_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat120_p-going_out/220106_053713/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-120_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat120_Pb-going_out/220106_053722/0000
+         - p-going:  /ddesouza/Dijet_pThat-120_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat120_p-going_out/220106_053713/0000
+         - Pb-going: /ddesouza/Dijet_pThat-120_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat120_Pb-going_out/220106_053722/0000
        - [x] pthat > 170 GeV
-         - p-going:  /store/user/ddesouza/Dijet_pThat-170_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat170_p-going_out/220120_045548/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-170_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat170_Pb-going_out/220120_045557/0000
+         - p-going:  /ddesouza/Dijet_pThat-170_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat170_p-going_out/220120_045548/0000
+         - Pb-going: /ddesouza/Dijet_pThat-170_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat170_Pb-going_out/220120_045557/0000
        - [x] pthat > 220 GeV
-         - p-going:  /store/user/ddesouza/Dijet_pThat-220_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat220_p-going_out/220106_053731/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-220_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat220_Pb-going_out/220106_053740/0000
+         - p-going:  /ddesouza/Dijet_pThat-220_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat220_p-going_out/220106_053731/0000
+         - Pb-going: /ddesouza/Dijet_pThat-220_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat220_Pb-going_out/220106_053740/0000
        - [x] pthat > 280 GeV
-         - p-going:  /store/user/ddesouza/Dijet_pThat-280_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat280_p-going_out/220120_045606/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-280_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat280_Pb-going_out/220120_045615/0000
+         - p-going:  /ddesouza/Dijet_pThat-280_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat280_p-going_out/220120_045606/0000
+         - Pb-going: /ddesouza/Dijet_pThat-280_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat280_Pb-going_out/220120_045615/0000
        - [x] pthat > 370 GeV
-         - p-going:  /store/user/ddesouza/Dijet_pThat-370_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat370_p-going_out/220106_053748/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-370_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat370_Pb-going_out/220106_053757/0000
+         - p-going:  /ddesouza/Dijet_pThat-370_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat370_p-going_out/220106_053748/0000
+         - Pb-going: /ddesouza/Dijet_pThat-370_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat370_Pb-going_out/220106_053757/0000
        - [x] pthat > 460 GeV  
-         - p-going:  /store/user/ddesouza/Dijet_pThat-460_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat460_p-going_out/220120_045624/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-460_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat460_Pb-going_out/220120_045633/0000
+         - p-going:  /ddesouza/Dijet_pThat-460_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat460_p-going_out/220120_045624/0000
+         - Pb-going: /ddesouza/Dijet_pThat-460_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat460_Pb-going_out/220120_045633/0000
        - [x] pthat > 540 GeV
-         - p-going:  /store/user/ddesouza/Dijet_pThat-540_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat540_p-going_out/220106_053806/0000
-         - Pb-going: /store/user/ddesouza/Dijet_pThat-540_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat540_Pb-going_out/220106_053815/0000
+         - p-going:  /ddesouza/Dijet_pThat-540_pPb-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat540_p-going_out/220106_053806/0000
+         - Pb-going: /ddesouza/Dijet_pThat-540_PbP-EmbEPOS_8p16_Pythia8/New_HiForest_pPb_PYTHIA8_EPOS_emb_pthat540_Pb-going_out/220106_053815/0000
       
 2. Skim production  -> stored at CERN EOS (Dener and Abhishek folders, if you wanna access, just ask) -> Move to HIN EOS?
    - [ ] MB data
