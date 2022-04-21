@@ -31,10 +31,15 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
 1. HiForest production: Ongoing -> stored at T2_BR_SPRACE
    - Data
      - [ ] MB - Ntrkoff -> range [0,185] -> It has more statistics than HM0 in the range [120, 185] :)
-     - [ ] HM - Ntrkoff -> range [185, 250] (HM1to6)
-     - [x] HM - Ntrkoff -> range [250, inf] (HM7)
-       - p-going: /store/user/ddesouza/PAHighMultiplicity7/Forest_pPb_8p16TeV_pgoing_Trigger_HM250/220306_160822/*
-       - Pb-going: /store/user/ddesouza/PAHighMultiplicity7/Forest_pPb_8p16TeV_Pbgoing_Trigger_HM250_out/220306_161142/*
+     - [ ] HM - Ntrkoff -> range [185, 250] (PD 1 to 6)
+       - p-going: 
+         - 
+       - Pb-going:
+         - 
+         - /store/user/ddesouza/PAHighMultiplicity6/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_HM185_PD6/220401_154217/*
+     - [x] HM - Ntrkoff -> range [250, inf] (PD 7)
+       - p-going: /store/user/ddesouza/PAHighMultiplicity7/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_HM250/220327_024216/*
+       - Pb-going: /store/user/ddesouza/PAHighMultiplicity7/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_HM250/220327_024248/*
      - [x] Jet samples -> EP information not included
        - p-going:/store/user/ddesouza/PAEGJet1/HiForest_pPb_8TeV_p-going_JetSamples_out/211211_161432/*
        - Pb-going:/store/user/ddesouza/PAEGJet1/HiForest_pPb_8TeV_Pb-going_JetSamples_out/211211_162021/*
