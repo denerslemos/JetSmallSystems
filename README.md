@@ -28,14 +28,39 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
 
 ## Status:
 
-1. HiForest production: Ongoing -> stored at T2_BR_SPRACE
+1. HiForest production: Ongoing -> stored at T2_BR_SPRACE (just remember to use /store/user/...)
    - Data
      - [ ] MB - Ntrkoff -> range [0,185] -> It has more statistics than HM0 in the range [120, 185] :)
        - p-going: 
-         - [ ] 
+         - [x] /ddesouza/PAMinimumBias1/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_MB_PD1/220413_170920/*
+         - [x] /ddesouza/PAMinimumBias2/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_MB_PD2/220413_171031/*
+         - [x] /caber/PAMinimumBias3/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_MB_PD3/220413_201132/*
+         - [x] /caber/PAMinimumBias4/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_MB_PD4/220413_201343/*
+         - [x] /ddesouza/PAMinimumBias5/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_MB_PD5/220420_162052/*
+         - [x] /ddesouza/PAMinimumBias6/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_MB_PD6/220420_162808/*
+         - [x] /ahingraj/PAMinimumBias7/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_MB_PD7/220425_173932/*
+         - [x] /ahingraj/PAMinimumBias8/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_MB_PD8/220425_174127/*
        - Pb-going:
-         - [ ] 
-     - [ ] HM - Ntrkoff -> range [185, 250] (PD 1 to 6)
+         - [ ] X
+         - [ ] X
+         - [x] /sdogra/PAMinimumBias3/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD3/220525_022016/*
+         - [ ] X
+         - [ ] X
+         - [ ] X
+         - [ ] X
+         - [ ] X
+         - [ ] X
+         - [ ] X
+         - [ ] X
+         - [ ] X
+         - [ ] X
+         - [ ] X
+         - [ ] X
+         - [ ] X
+         - [ ] X
+         - [x] /borzari/PAMinimumBias19/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD19/220426_135622/*
+         - [ ] X
+     - [x] HM - Ntrkoff -> range [185, 250] (PD's 1 to 6)
        - p-going: 
          - [x] /ddesouza/PAHighMultiplicity1/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_HM185_PD1/220326_030954/*
          - [x] /ddesouza/PAHighMultiplicity2/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_HM185_PD2/220326_031425/*
@@ -46,8 +71,8 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
        - Pb-going:
          - [x] /ahingraj/PAHighMultiplicity1/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_HM185_PD1/220327_002010/*
          - [x] /ahingraj/PAHighMultiplicity2/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_HM185_PD2/220327_002150/*
-         - [ ] /shnanda/PAHighMultiplicity4/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_HM185_PD4/220329_234624/*
-         - [ ] /shnanda/PAHighMultiplicity3/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_HM185_PD3/220329_234557/* 
+         - [x] /ddesouza/PAHighMultiplicity3/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_HM185_PD3/220508_173510/*
+         - [x] /ddesouza/PAHighMultiplicity4/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_HM185_PD4/220508_173553/* 
          - [x] /ddesouza/PAHighMultiplicity5/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_HM185_PD5/220401_154028/*
          - [x] /ddesouza/PAHighMultiplicity6/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_HM185_PD6/220401_154217/*
      - [x] HM - Ntrkoff -> range [250, inf] (PD 7)
@@ -57,7 +82,7 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
        - p-going: /ddesouza/PAEGJet1/HiForest_pPb_8TeV_p-going_JetSamples_out/211211_161432/*
        - Pb-going: /ddesouza/PAEGJet1/HiForest_pPb_8TeV_Pb-going_JetSamples_out/211211_162021/*
 
-   - MC simulations: Ongoing -> stored at T2_BR_SPRACE
+   - MC simulations: Ongoing -> stored at T2_BR_SPRACE -> checking why jets are not available
      - [ ] EPOS MB
          - p-going: 
          - Pb-going:
