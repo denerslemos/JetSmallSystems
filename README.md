@@ -42,24 +42,24 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
          - [x] /ahingraj/PAMinimumBias8/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_MB_PD8/220425_174127/*
        - Pb-going:
          - [ ] /caber/PAMinimumBias1/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD1/220524_193354/*
-         - [ ] /caber/PAMinimumBias2/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD2/220524_193533/*
+         - [x] /caber/PAMinimumBias2/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD2/220524_193533/*
          - [x] /sdogra/PAMinimumBias3/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD3/220525_022016/*
+         - [ ] --> Sunil
          - [ ] X
          - [ ] X
          - [ ] X
          - [ ] X
          - [ ] X
-         - [ ] X
-         - [ ] X
-         - [ ] X
-         - [ ] X
-         - [ ] X
+         - [ ] --> Yi?
+         - [ ] --> Isabela
+         - [ ] --> Cesar
+         - [ ] --> Abhishek
          - [ ] /ddesouza/PAMinimumBias15/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD15/220524_161505/*
-         - [ ] /ddesouza/PAMinimumBias16/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD16/220524_161140/*
-         - [ ] /ahingraj/PAMinimumBias17/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD17/220524_161145/*
-         - [ ] /ahingraj/PAMinimumBias18/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD18/220524_161301/*
+         - [x] /ddesouza/PAMinimumBias16/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD16/220524_161140/*
+         - [x] /ahingraj/PAMinimumBias17/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD17/220524_161145/*
+         - [x] /ahingraj/PAMinimumBias18/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD18/220524_161301/*
          - [x] /borzari/PAMinimumBias19/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD19/220426_135622/*
-         - [ ] X
+         - [ ] X --> Dener
      - [x] HM - Ntrkoff -> range [185, 250] (PD's 1 to 6)
        - p-going: 
          - [x] /ddesouza/PAHighMultiplicity1/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_HM185_PD1/220326_030954/*
