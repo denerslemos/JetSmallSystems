@@ -49,11 +49,11 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
          - [ ] X
          - [ ] X
          - [ ] X
-         - [ ] X
-         - [ ] X
-         - [ ] --> Isabela
-         - [ ] --> Cesar
          - [ ] --> Abhishek
+         - [ ] X
+         - [ ] --> Cesar
+         - [ ] --> Dener
+         - [ ] X
          - [x] /ddesouza/PAMinimumBias15/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD15/220524_161505/*
          - [x] /ddesouza/PAMinimumBias16/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD16/220524_161140/*
          - [x] /ahingraj/PAMinimumBias17/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD17/220524_161145/*
