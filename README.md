@@ -44,14 +44,14 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
          - [x] /caber/PAMinimumBias1/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD1/220524_193354/*
          - [x] /caber/PAMinimumBias2/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD2/220524_193533/*
          - [x] /sdogra/PAMinimumBias3/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD3/220525_022016/*
-         - [x] /sdogra/PAMinimumBias4/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD4/220613_053906/*
+         - [x] /sdogra/PAMinimumBias4/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD4/220713_015613/*
          - [x] /ddesouza/PAMinimumBias5/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD5/220702_174146/*
-         - [ ] X
+         - [ ] /ddesouza/PAMinimumBias6/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD6/220723_150420/*
          - [ ] X
          - [x] /ahingraj/PAMinimumBias8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD8/220626_201229/*
          - [x] /caber/PAMinimumBias9/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD9/220705_154359/*
-         - [ ] /ahingraj/PAMinimumBias10/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD10/220719_152717/*
-         - [ ] /ddesouza/PAMinimumBias11/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD11/220718_162751/*  
+         - [x] /ahingraj/PAMinimumBias10/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD10/220719_152717/*
+         - [x] /ddesouza/PAMinimumBias11/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD11/220718_162751/*  
          - [x] /caber/PAMinimumBias12/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD12/220626_192407/*
          - [x] /ddesouza/PAMinimumBias13/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD13/220626_183646/*
          - [x] /ahingraj/PAMinimumBias14/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD14/220705_160434/*
@@ -60,7 +60,7 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
          - [x] /ahingraj/PAMinimumBias17/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD17/220524_161145/*
          - [x] /ahingraj/PAMinimumBias18/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD18/220524_161301/*
          - [x] /borzari/PAMinimumBias19/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD19/220426_135622/*
-         - [x] /borzari/PAMinimumBias20/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_Trigger_MB_PD20/220426_135719/*
+         - [x] X
      - [x] HM - Ntrkoff -> range [185, 250] (PD's 1 to 6)
        - p-going: 
          - [x] /ddesouza/PAHighMultiplicity1/HeavyIon_Forest_pPb_8p16TeV_pgoing_Trigger_HM185_PD1/220326_030954/*
