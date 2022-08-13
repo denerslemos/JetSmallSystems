@@ -98,60 +98,38 @@ HiForest production -> Make the skims -> produce histograms -> run macros for pl
          
      - [x] Pythia8 - Dijet - unembedded - EP information not included
        - [x] pthat > 15 GeV 
-         - p-going:  
-         - ```/ahingraj/Dijet_pThat-15_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat15_out/220808_162221/0000```
-         - Pb-going: 
-         - ```/ahingraj/Dijet_pThat-15_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat15_out/220809_170405/0000```
+         - p-going: ```/ahingraj/Dijet_pThat-15_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat15_out/220808_162221/*```
+         - Pb-going: ```/ahingraj/Dijet_pThat-15_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat15_out/220809_170405/*```
        - [x] pthat > 30 GeV 
-         - p-going:  
-         - ```/ahingraj/Dijet_pThat-30_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat30_out/220808_162243/0000```
-         - Pb-going: 
-         - ```/ahingraj/Dijet_pThat-30_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat30_out/220809_170421/0000```
+         - p-going: ```/ahingraj/Dijet_pThat-30_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat30_out/220808_162243/*```
+         - Pb-going: ```/ahingraj/Dijet_pThat-30_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat30_out/220809_170421/*```
        - [x] pthat > 50 GeV 
-         - p-going:  
-         - ```/ahingraj/Dijet_pThat-50_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat50_out/220808_162305/0000```
-         - Pb-going: 
-         - ```/ahingraj/Dijet_pThat-50_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat50_out/220809_170437/0000```
+         - p-going: ```/ahingraj/Dijet_pThat-50_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat50_out/220808_162305/*```
+         - Pb-going: ```/ahingraj/Dijet_pThat-50_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat50_out/220809_170437/*```
        - [x] pthat > 80 GeV
-         - p-going:  
-         - ```/ahingraj/Dijet_pThat-80_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat80_out/220808_162326/0000```
-         - Pb-going: 
-         - ```/ahingraj/Dijet_pThat-80_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat80_out/220809_170452/0000```
+         - p-going: ```/ahingraj/Dijet_pThat-80_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat80_out/220808_162326/*```
+         - Pb-going: ```/ahingraj/Dijet_pThat-80_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat80_out/220809_170452/*```
        - [x] pthat > 120 GeV 
-         - p-going:  
-         - ```/ahingraj/Dijet_pThat-120_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat120_out/220808_162348/0000```
-         - Pb-going: 
-         - ```/ahingraj/Dijet_pThat-120_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat120_out/220809_170508/0000```
+         - p-going:  ```/ahingraj/Dijet_pThat-120_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat120_out/220808_162348/*```
+         - Pb-going: ```/ahingraj/Dijet_pThat-120_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat120_out/220809_170508/*```
        - [x] pthat > 170 GeV      
-         - p-going:  
-         - ```/ahingraj/Dijet_pThat-170_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat170_out/220808_162425/0000```
-         - Pb-going: 
-         - ```/ahingraj/Dijet_pThat-170_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat170_out/220809_170523/0000```
+         - p-going: ```/ahingraj/Dijet_pThat-170_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat170_out/220808_162425/*```
+         - Pb-going: ```/ahingraj/Dijet_pThat-170_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat170_out/220809_170523/*```
        - [x] pthat > 220 GeV
-         - p-going:  
-         - ```/ahingraj/Dijet_pThat-220_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat220_out/220808_162445/0000```
-         - Pb-going: 
-         - ```/ahingraj/Dijet_pThat-220_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat220_out/220809_170538/0000```   
+         - p-going: ```/ahingraj/Dijet_pThat-220_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat220_out/220808_162445/*```
+         - Pb-going: ```/ahingraj/Dijet_pThat-220_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat220_out/220809_170538/*```   
        - [x] pthat > 280 GeV
-         - p-going:  
-         - ```/ahingraj/Dijet_pThat-280_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat280_out/220808_162507/0000```
-         - Pb-going: 
-         - ```/ahingraj/Dijet_pThat-280_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat280_out/220809_170553/0000```
+         - p-going: ```/ahingraj/Dijet_pThat-280_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat280_out/220808_162507/*```
+         - Pb-going: ```/ahingraj/Dijet_pThat-280_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat280_out/220809_170553/*```
        - [x] pthat > 370 GeV
-         - p-going:  
-         - ```/ahingraj/Dijet_pThat-370_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat370_out/220808_162526/0000```
-         - Pb-going: 
-         - ```/ahingraj/Dijet_pThat-370_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat370_out/220809_170611/0000
+         - p-going: ```/ahingraj/Dijet_pThat-370_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat370_out/220808_162526/*```
+         - Pb-going:  ```/ahingraj/Dijet_pThat-370_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat370_out/220809_170611/*```
        - [x] pthat > 460 GeV
-         - p-going:  
-         - ```/ahingraj/Dijet_pThat-460_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat460_out/220808_162547/0000```
-         - Pb-going: 
-         - ```/ahingraj/Dijet_pThat-460_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat460_out/220809_170627/0000```
+         - p-going: ```/ahingraj/Dijet_pThat-460_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat460_out/220808_162547/*```
+         - Pb-going: ```/ahingraj/Dijet_pThat-460_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat460_out/220809_170627/*```
        - [x] pthat > 540 GeV
-         - p-going:  
-         - ```/ahingraj/Dijet_pThat-540_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat540_out/220808_162607/0000```
-         - Pb-going: 
-         - ```/ahingraj/Dijet_pThat-540_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat540_out/220809_170642/0000```
+         - p-going: ```/ahingraj/Dijet_pThat-540_pPb-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_pgoing_PYTHIA8_Unembedded_pthat540_out/220808_162607/*```
+         - Pb-going: ```/ahingraj/Dijet_pThat-540_PbP-Bst_8p16_Pythia8/HeavyIon_Forest_pPb_8p16TeV_Pbgoing_PYTHIA8_Unembedded_pthat540_out/220809_170642/*```
       
      - [x] Pythia8  - Dijet - embedded (using EPOS) - EP information not included
        - [x] pthat > 15 GeV
