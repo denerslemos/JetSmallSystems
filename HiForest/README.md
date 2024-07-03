@@ -24,7 +24,6 @@ cp /afs/cern.ch/work/d/ddesouza/public/ForForest/METAnalyzer.cc $CMSSW_BASE/src/
 cp /afs/cern.ch/work/d/ddesouza/public/ForForest/METAnalyzer*.py $CMSSW_BASE/src/HeavyIonsAnalysis/TrackAnalysis/python/
 cp /afs/cern.ch/work/d/ddesouza/public/ForForest/HiGenAnalyzer_cfi.py $CMSSW_BASE/src/HeavyIonsAnalysis/JetAnalysis/python/ 
 cp /afs/cern.ch/work/d/ddesouza/public/ForForest/HiSignalGenJetProducer.cc $CMSSW_BASE/src/RecoHI/HiJetAlgos/plugins/
-cp /afs/cern.ch/work/d/ddesouza/public/ForForest/HiEvtAnalyzer.cc $CMSSW_BASE/src/HeavyIonsAnalysis/EventAnalysis/src/
 # Include event plane information -> Need to adapt event plane code from: 
 # https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideHeavyIonFlatEvtPlane#CMSSW_8_0_24_Instructions_2016_p
 # To make it easy you can just copy those folders:
