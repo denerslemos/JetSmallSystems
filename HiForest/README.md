@@ -4,6 +4,8 @@
 For pPb at 8.16 TeV the CMSSW version 8_0_28 must be used (based on https://twiki.cern.ch/twiki/bin/viewauth/CMS/HiForestSetup#Setup_for_8_0_28):
 
 ```
+#Moving to container
+cmssw-el7
 #VOMS
 voms-proxy-init -rfc -voms cms
 # Setup CMSSW version
@@ -20,6 +22,7 @@ cmsenv
 # Dener's changes
 cp /afs/cern.ch/work/d/ddesouza/public/ForForest/TrackAnalyzer.cc $CMSSW_BASE/src/HeavyIonsAnalysis/TrackAnalysis/src/
 cp /afs/cern.ch/work/d/ddesouza/public/ForForest/trackAnalyzer_cfi.py $CMSSW_BASE/src/HeavyIonsAnalysis/TrackAnalysis/python/
+cp /afs/cern.ch/work/d/ddesouza/public/ForForest/HiEvtAnalyzer.cc $CMSSW_BASE/src/HeavyIonsAnalysis/EventAnalysis/
 cp /afs/cern.ch/work/d/ddesouza/public/ForForest/METAnalyzer.cc $CMSSW_BASE/src/HeavyIonsAnalysis/TrackAnalysis/src/
 cp /afs/cern.ch/work/d/ddesouza/public/ForForest/METAnalyzer*.py $CMSSW_BASE/src/HeavyIonsAnalysis/TrackAnalysis/python/
 cp /afs/cern.ch/work/d/ddesouza/public/ForForest/HiGenAnalyzer_cfi.py $CMSSW_BASE/src/HeavyIonsAnalysis/JetAnalysis/python/ 
