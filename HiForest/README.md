@@ -22,7 +22,7 @@ cmsenv
 # Dener's changes
 cp /afs/cern.ch/work/d/ddesouza/public/ForForest/TrackAnalyzer.cc $CMSSW_BASE/src/HeavyIonsAnalysis/TrackAnalysis/src/
 cp /afs/cern.ch/work/d/ddesouza/public/ForForest/trackAnalyzer_cfi.py $CMSSW_BASE/src/HeavyIonsAnalysis/TrackAnalysis/python/
-cp /afs/cern.ch/work/d/ddesouza/public/ForForest/HiEvtAnalyzer.cc $CMSSW_BASE/src/HeavyIonsAnalysis/EventAnalysis/src/
+#cp /afs/cern.ch/work/d/ddesouza/public/ForForest/HiEvtAnalyzer.cc $CMSSW_BASE/src/HeavyIonsAnalysis/EventAnalysis/src/
 cp /afs/cern.ch/work/d/ddesouza/public/ForForest/METAnalyzer.cc $CMSSW_BASE/src/HeavyIonsAnalysis/TrackAnalysis/src/
 cp /afs/cern.ch/work/d/ddesouza/public/ForForest/METAnalyzer*.py $CMSSW_BASE/src/HeavyIonsAnalysis/TrackAnalysis/python/
 cp /afs/cern.ch/work/d/ddesouza/public/ForForest/HiGenAnalyzer_cfi.py $CMSSW_BASE/src/HeavyIonsAnalysis/JetAnalysis/python/ 
